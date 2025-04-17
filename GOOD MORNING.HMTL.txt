@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Morning Sweety!</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0e68c;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            font-size: 50px;
+            color: #ff6347;
+        }
+        p {
+            font-size: 20px;
+            color: #333;
+        }
+        .button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            background-color: #ff6347;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #ff4500;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Good Morning Sweety!</h1>
+        <p>Wishing you a day filled with joy and success!</p>
+        <button class="button" onclick="alert('Have a great day!')">Click for a Surprise</button>
+    </div>
+</body>
+</html>
